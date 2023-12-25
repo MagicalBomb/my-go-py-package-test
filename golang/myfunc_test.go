@@ -5,7 +5,7 @@ import "testing"
 func TestMyFunc(t *testing.T) {
 	sum := Add(1, 2)
 
-	if sum != 3 {
+	if sum != 4 {
 		t.Errorf("Add(1, 2) = %d; want 3", sum)
 	}
 }
